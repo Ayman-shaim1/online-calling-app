@@ -76,10 +76,10 @@ dependencies {
     implementation("com.google.accompanist:accompanist-permissions:0.34.0")
     // webrtc
     // jcenter
-    // org.webrtc:google-webrtc:1.0.30039@aar
-    // org.webrtc:google-webrtc:1.0.30026
-    implementation("org.webrtc:google-webrtc:1.0.30039@aar")
-    //implementation("com.github.codecrunchers-x:WebRTC-Android-Library:v1.0.32006")
+                //-- org.webrtc:google-webrtc:1.0.30039@aar
+                //-- org.webrtc:google-webrtc:1.0.30026
+    //implementation("org.webrtc:google-webrtc:1.0.32006")
+     implementation("com.github.codecrunchers-x:WebRTC-Android-Library:v1.0.32006")
     // firebase
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
 

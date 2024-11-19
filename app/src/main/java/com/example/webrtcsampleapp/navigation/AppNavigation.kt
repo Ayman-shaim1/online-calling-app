@@ -51,7 +51,12 @@ fun SetupNavigation() {
 
                 return@composable
             }
-            VideoCallScreen(roomId,{})
+            VideoCallScreen(roomId, onNavigateBack = {
+                /*navController.navigate("Home"){
+                    popUpTo(0){inclusive=true}
+                    launchSingleTop = true
+                }*/
+            })
         }
     }
 }
